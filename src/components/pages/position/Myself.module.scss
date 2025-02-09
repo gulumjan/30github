@@ -1,0 +1,22 @@
+.Myself {
+  margin-top: 80px;
+  .content {
+    display: flex;
+    .content_text {
+      display: flex;
+      flex-direction: column;
+
+      h1 {
+        text-align: center;
+        padding: 75px 0;
+        font-size: 70px;
+        height: 30vh;
+        color: white;
+        text-shadow: 0 0 24px purple;
+        -webkit-text-stroke-color: 10px purple;
+        transform: translateY(-30px);
+        animation: fadeInDown 1.5s ease-out forwards;
+      }
+    }
+  }
+}

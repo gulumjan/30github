@@ -1,7 +1,12 @@
+import Myself from "@/components/pages/position/Myself";
 import React from "react";
 
 const page = () => {
-  return <div>HomePage</div>;
+  return (
+    <>
+      <Myself />
+    </>
+  );
 };
 
 export default page;
