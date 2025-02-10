@@ -6,10 +6,10 @@ const Myself: FC = () => {
     <section className={scss.Myself}>
       <div className="container">
         <div className={scss.content}>
-          <div className={scss.content_text}>
-            <p>I am Gulumzhan</p>
+          <div className={scss.text}>
+            <p className={scss.intro}>I am Gulumzhan</p>
             <h1>
-              Frontend Developer <br />
+              <span>Frontend Developer</span>
             </h1>
           </div>
         </div>
