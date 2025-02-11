@@ -7,7 +7,7 @@ const Header: FC = () => {
     <header className={scss.Header}>
       <div className="container">
         <div className={scss.content}>
-          <div className={scss.logo}>ZaDev</div>
+          <div className={scss.logo}>ZakDev</div>
           <nav className={scss.nav}>
             <Link href="#about" scroll={false}>
               About
