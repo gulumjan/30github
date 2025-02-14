@@ -5,7 +5,12 @@
 
   .content {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 
+    p {
+      width: 540px;
+    }
     .text {
       display: flex;
       flex-direction: column;
