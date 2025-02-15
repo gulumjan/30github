@@ -4,6 +4,11 @@
   justify-content: space-between;
   min-height: 100vh;
   box-sizing: border-box;
+  background: url("../../assets/oceanBackground.jpg") no-repeat center center;
+  background-size: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  filter: brightness(90%) opacity(0.8);
   footer {
     margin-top: auto;
   }
