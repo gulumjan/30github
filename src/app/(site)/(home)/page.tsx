@@ -1,4 +1,4 @@
-import Myself from "@/components/pages/position/Myself";
+import Myself from "@/components/pages/position/About";
 import React from "react";
 
 const page = () => {

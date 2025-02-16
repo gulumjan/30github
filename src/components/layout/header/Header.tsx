@@ -7,13 +7,19 @@ const Header: FC = () => {
     <header className={scss.Header}>
       <div className="container">
         <div className={scss.content}>
-          <div className={scss.logo}>ZakDev</div>
+          <div className={scss.logo}>OceanExplorer</div>
           <nav className={scss.nav}>
-            <Link href="#about" scroll={false}>
-              About
+            <Link href="#home" scroll={false}>
+              Home
             </Link>
-            <Link href="#projects" scroll={false}>
-              Projects
+            <Link href="#marine-life" scroll={false}>
+              Marine Life
+            </Link>
+            <Link href="#conservation" scroll={false}>
+              Conservation
+            </Link>
+            <Link href="#gallery" scroll={false}>
+              Gallery
             </Link>
             <Link href="#contact" scroll={false}>
               Contact
