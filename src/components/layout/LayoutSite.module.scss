@@ -5,10 +5,23 @@
   min-height: 100vh;
   box-sizing: border-box;
   background: url("../../assets/oceanBackground.jpg") no-repeat center center;
-  background-size: 100%;
+  background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  filter: brightness(90%) opacity(0.8);
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+
+  > * {
+    position: relative;
+    z-index: 1;
+  }
+
   footer {
     margin-top: auto;
   }

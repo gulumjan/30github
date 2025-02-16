@@ -1,37 +1,43 @@
-.Myself {
+.About {
   margin-top: 80px;
   display: flex;
   min-height: 40vh;
+  color: white;
 
   .content {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    text-align: center;
+    padding: 20px;
 
-    p {
-      width: 540px;
-    }
     .text {
       display: flex;
       flex-direction: column;
+      align-items: center;
 
-      .intro {
-        font-size: 84px;
-        color: #fff;
-        opacity: 0.8;
-        font-family: Arial, Helvetica, sans-serif;
+      p {
+        font-size: 20px;
+        width: 50%;
+        margin-bottom: 20px;
+        line-height: 1.6;
+        color: #d1e6f0;
       }
 
       h1 {
-        padding: 30px 0;
+        padding: 40px 0;
         font-size: 70px;
         color: white;
         text-shadow: 0 0 24px rgb(24, 35, 116);
         animation: fadeInDown 1.5s ease-out forwards;
+        display: inline-block;
+        background: linear-gradient(45deg, #f5f5f5, #7d9de1);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
 
         span {
           display: inline-block;
-          background: linear-gradient(45deg, purple, rgb(91, 117, 236));
+          background: linear-gradient(45deg, #36d1dc, #5b86e5);
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
         }
@@ -52,8 +58,13 @@
 }
 
 @media (max-width: 768px) {
-  .Myself .content .text h1 {
+  .About .content .text h1 {
     font-size: 50px;
     padding: 30px 0;
+  }
+
+  .About .content p {
+    font-size: 16px;
+    width: 90%;
   }
 }
