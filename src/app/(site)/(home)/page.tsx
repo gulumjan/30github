@@ -1,10 +1,10 @@
-import Myself from "@/components/pages/position/About";
+import HomePage from "@/components/pages/HomePage";
 import React from "react";
 
 const page = () => {
   return (
     <>
-      <Myself />
+      <HomePage />
     </>
   );
 };
