@@ -28,6 +28,16 @@ const Gallery: FC = () => {
       src: "https://i.pinimg.com/736x/41/db/81/41db81b86ab1b5f7bb423472d7fd73dd.jpg",
       alt: "Marine Life",
     },
+    {
+      type: "image",
+      src: "https://i.pinimg.com/736x/41/db/81/41db81b86ab1b5f7bb423472d7fd73dd.jpg",
+      alt: "Marine Life",
+    },
+    {
+      type: "image",
+      src: "https://i.pinimg.com/736x/41/db/81/41db81b86ab1b5f7bb423472d7fd73dd.jpg",
+      alt: "Marine Life",
+    },
   ];
 
   return (
