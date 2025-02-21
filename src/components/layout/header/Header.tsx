@@ -21,11 +21,9 @@ const Header: FC = () => {
             <Link href="#gallery" scroll={false}>
               Gallery
             </Link>
-            <Link href="#gallery" scroll={false}>
-              Gallery
-            </Link>
+
             <Link href="#contact" scroll={false}>
-              Contact
+              Contactt
             </Link>
           </nav>
         </div>
