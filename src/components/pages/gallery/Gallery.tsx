@@ -59,7 +59,6 @@ const Gallery: FC = () => {
     <section className={scss.Gallery}>
       <div className="container">
         <h2>Gallerry</h2>
-        <h2>Gallerry</h2>
 
         <p>Explore the wonders of the ocean through images and videos.</p>
         <div className={scss.scroll_container}>
