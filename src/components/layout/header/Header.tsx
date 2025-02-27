@@ -23,7 +23,7 @@ const Header: FC = () => {
             </Link>
 
             <Link href="#contact" scroll={false}>
-              Contactt
+              Contact
             </Link>
           </nav>
         </div>
