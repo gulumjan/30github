@@ -25,7 +25,7 @@ const marineData = [
 
 const MarineLife: FC = () => {
   return (
-    <section className={scss.marineLife}>
+    <section id="marine-life" className={scss.marineLife}>
       <div className="container">
         <h2 className={scss.title}>Marine Life</h2>
         <Image
