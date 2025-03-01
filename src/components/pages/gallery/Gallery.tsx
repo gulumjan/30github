@@ -5,7 +5,6 @@ import { useGetEpicQuery } from "@/redux/api/product";
 
 const Gallery: FC = () => {
   const { data } = useGetEpicQuery();
-  console.log("🚀 ~ data:", data);
   const media = [
     {
       type: "image",

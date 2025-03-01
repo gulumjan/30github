@@ -2,7 +2,6 @@
 import { FC } from "react";
 import Image from "next/image";
 import scss from "./MarineLife.module.scss";
-import { useGetEpicQuery } from "@/redux/api/product";
 
 const marineData = [
   {
@@ -26,8 +25,6 @@ const marineData = [
 ];
 
 const MarineLife: FC = () => {
-  const { data } = useGetEpicQuery();
-  console.log("🚀 ~ data:", data);
   return (
     <section id="marine-life" className={scss.marineLife}>
       <div className="container">
