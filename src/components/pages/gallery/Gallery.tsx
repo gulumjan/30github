@@ -1,7 +1,11 @@
+"use client";
 import { FC } from "react";
 import scss from "./Gallery.module.scss";
+import { useGetEpicQuery } from "@/redux/api/product";
 
 const Gallery: FC = () => {
+  const { data } = useGetEpicQuery();
+  console.log("🚀 ~ data:", data);
   const media = [
     {
       type: "image",
@@ -62,13 +66,9 @@ const Gallery: FC = () => {
 
         <p>Explore the wonders of the ocean through images and videos.</p>
         <div className={scss.scroll_container}>
-          {media.map((item, index) => (
+          {data?.map((item, index) => (
             <div key={index} className={scss.item}>
-              {item.type === "image" ? (
-                <img src={item.src} alt={item.alt} />
-              ) : (
-                <video src={item.src} controls />
-              )}
+              <img src={item.image} alt="" />
             </div>
           ))}
         </div>
