@@ -8,7 +8,7 @@ const About: FC = () => {
         <div className={scss.content}>
           <div className={scss.text}>
             <h1>
-              Welcome to <span>Marine Life</span>
+              Welcome to Zakirova <span>Marine Life</span>
             </h1>
             <p>
               Explore the depths of the ocean and discover the incredible world
