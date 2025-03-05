@@ -27,7 +27,7 @@ const Conservation: FC = () => {
               <li>🤝 Join conservation initiatives worldwide</li>
             </ul>
             <a href="#join-us" className={scss.button}>
-              Join the Movement
+              Join the Movement collective
             </a>
           </div>
           <div className={scss.imageBlock}>
