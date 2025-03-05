@@ -20,8 +20,14 @@ const Conservation: FC = () => {
               <li>🏝️ Protect coral reefs and marine habitats</li>
               <li>🤝 Join conservation initiatives worldwide</li>
             </ul>
+            <ul className={scss.list}>
+              <li>🌊 Reduce plastic waste and ocean pollution</li>
+              <li>🐠 Support sustainable fishing practices</li>
+              <li>🏝️ Protect coral reefs and marine habitats</li>
+              <li>🤝 Join conservation initiatives worldwide</li>
+            </ul>
             <a href="#join-us" className={scss.button}>
-              Join the Movement
+              Join the Movement collective
             </a>
           </div>
           <div className={scss.imageBlock}>
