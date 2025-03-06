@@ -9,9 +9,6 @@ const Header: FC = () => {
         <div className={scss.content}>
           <div className={scss.logo}>OceanExplorer</div>
           <nav className={scss.nav}>
-            <Link href="#home" scroll={false}>
-              Home
-            </Link>
             <Link href="#marine-life" scroll={false}>
               Marine Life
             </Link>
