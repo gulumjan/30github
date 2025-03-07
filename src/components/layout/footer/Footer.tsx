@@ -6,7 +6,6 @@ const Footer: FC = () => {
     <footer className={scss.Footer}>
       <div className="container">
         <div className={scss.content}>
-          Footer
           <nav>
             <a href="#">Contact</a>
             <a href="#">About</a>
